@@ -62,5 +62,10 @@ def over?(board)
 end
 
 def winner(board)
-  
+  count = 0
+  board.each do |elem|
+    e = elem.strip
+    count += ((e.size == 0) ? 0 : 1)
+  end
+  count % 2 > 0 ? "O" : "X"   
 end
