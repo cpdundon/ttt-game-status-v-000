@@ -58,7 +58,5 @@ def over(board)
   f = full?(board)
   d = draw?(board)
   
-  
-  
-  false
+  w || f || d ? true : false
 end
