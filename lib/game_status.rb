@@ -61,6 +61,6 @@ def over?(board)
   w || f || d ? true : false
 end
 
-def winner()
+def winner(board)
   
 end
