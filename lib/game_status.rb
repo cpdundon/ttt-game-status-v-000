@@ -64,12 +64,10 @@ end
 def winner(board)
   w = won?(board)
   
-  
-  
-  count = 0
-  board.each do |elem|
-    e = elem.strip
-    count += ((e.size == 0) ? 0 : 1)
+  if !w 
+    return nil
+  else
+    return w[0]
   end
-  ((count % 2) == 1) ? "X" : "O"   
+  
 end
