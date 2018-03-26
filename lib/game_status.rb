@@ -37,6 +37,6 @@ def full?(board)
   count == 9
 end
 
-def draw(board)
+def draw?(board)
   
 end
