@@ -54,5 +54,10 @@ def draw?(board)
 end
 
 def over(board)
+  w = won?(board)
+  f = full?(board)
+  d = draw?(board)
+  
+  
   
 end
