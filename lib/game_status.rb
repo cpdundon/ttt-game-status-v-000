@@ -62,6 +62,10 @@ def over?(board)
 end
 
 def winner(board)
+  w = won?(board)
+  
+  
+  
   count = 0
   board.each do |elem|
     e = elem.strip
