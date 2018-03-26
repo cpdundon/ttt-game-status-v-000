@@ -36,3 +36,7 @@ def full?(board)
   end
   count == 9
 end
+
+def draw(board)
+  
+end
