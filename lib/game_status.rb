@@ -60,3 +60,7 @@ def over?(board)
   
   w || f || d ? true : false
 end
+
+def winner()
+  
+end
