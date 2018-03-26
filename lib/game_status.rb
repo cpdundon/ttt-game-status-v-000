@@ -67,5 +67,5 @@ def winner(board)
     e = elem.strip
     count += ((e.size == 0) ? 0 : 1)
   end
-  count % 2 > 0 ? "X" : "o"   
+  count % 2 > 0 ? "X" : "O"   
 end
